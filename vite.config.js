@@ -4,6 +4,7 @@
 // in editors like VSCode for useful typehints, etc.
 import { defineConfig } from 'vite';
 import commonjsExternals from 'vite-plugin-commonjs-externals';
+import { createVuePlugin } from 'vite-plugin-vue2';
 
 export default defineConfig( {
 	build: {
@@ -32,6 +33,7 @@ export default defineConfig( {
 		target: 'es2015'
 	},
 	plugins: [
+		createVuePlugin(),
 		commonjsExternals( {
 			externals: [ 'vue' ]
 		} )

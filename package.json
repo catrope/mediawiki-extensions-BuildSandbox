@@ -16,6 +16,7 @@
 		"stylelint-config-wikimedia": "0.10.3",
 		"vite": "^2.2.3",
 		"vite-plugin-commonjs-externals": "^0.1.1",
+		"vite-plugin-vue2": "^1.2.0",
 		"vue": "^2.6.12"
 	},
 	"eslintIgnore": [
